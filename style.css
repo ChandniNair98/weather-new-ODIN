@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+body{
+    background-image: url('./images/default.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vb;
+}
+
+.box{
+    margin: 7vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vb;
+}
+
+h1{
+    margin: 4vb;
+    padding: 4vb;
+    color: azure;
+    font-size: 60px;
+    word-spacing: 20px;
+}
+
+button{
+    margin: 3vb;
+    padding: 8px;
+    color: white;
+    background-color: green;
+}
+
+input{
+    height: 50px;
+}
+
+p{
+    margin: 2vb;
+}
+
+.weather{
+    width: 50vb;
+    height: 38vb;
+    background-color:  rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    border-radius: 2vb;
+}
